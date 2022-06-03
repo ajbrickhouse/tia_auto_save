@@ -12,7 +12,7 @@ clr.AddReference('C:\\Program Files\\Siemens\\Automation\\Portal V16\\PublicAPI\
 import Siemens.Engineering as tia
 
 class tia_connect(tk.Tk):
-    def __init__(self):
+    def __init__(self): # what does this look like
         ''' Initial call, define window and elements'''
         super().__init__()
 
