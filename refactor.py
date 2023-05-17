@@ -5,7 +5,7 @@ from datetime import datetime
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QComboBox, QPushButton, QLabel, QSpinBox, QProgressBar, QWidget
 from PyQt5.QtCore import QTimer
 
-clr.AddReference('C:\\Program Files\\Siemens\\Automation\\Portal V16\\PublicAPI\\V16\\Siemens.Engineering.dll')
+clr.AddReference('C:\\Program Files\\Siemens\\Automation\\Portal V17\\PublicAPI\\V17\\Siemens.Engineering.dll')
 
 import Siemens.Engineering as tia
 
